@@ -3,21 +3,187 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI × Austin Glander</title>
+    <meta name="description"
+        content="An AI-generated page introducing Austin Glander and showcasing how artificial intelligence can produce professional, relevant web content.">
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="qualifications.html">Qualifications</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="ai.html">AI</a></li>
-        </ul>
-    </div>
-    <p>This is the AI page</p>
-</body>
+    <header>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="qualifications.html">Qualifications</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="ai.html" aria-current="page">AI</a></li>
+            </ul>
+        </nav>
+        <h1>AI × Austin Glander</h1>
+        <p>A concise, professional overview of Austin and a live demonstration of what modern AI can generate—using only
+            clean HTML.</p>
+    </header>
+    <main>
+        <section id="prompt" aria-labelledby="prompt-title">
+            <h2 id="prompt-title">The Prompt (verbatim)</h2>
+            <blockquote>
+                <p>I need you to generate an engaging webpage that educates the user on me, Austin Glander. It should be
+                    relevant to me and my interests, professional, and based off of all of our prior engagements. Your
+                    ultimate goal is to present the capabilities of artificial intelligence for generating web content.
+                    This prompt should be included in its unaltered entirety within the page. You must generate ONLY
+                    html. That means no inline CSS or JavaScript. You may include external links if desired. You must
+                    include a navbar at the top of the page that links to index.html, portfolio.html,
+                    qualifications.html, service.html, and ai.html (you are writing ai.html itself).</p>
+            </blockquote>
+        </section>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Austin</h2>
+            <p>Austin Glander is an educator-builder focused on computer networking, cybersecurity, and practical
+                software. He
+                leads networking education efforts at Texas A&amp;M and designs hands-on labs aligned to CCNA/CCNP
+                concepts.
+                Outside the classroom, he experiments with a serious homelab, automates infrastructure with containers
+                and
+                overlay networks, and builds tools and games that make technical learning more approachable.</p>
+            <ul>
+                <li><strong>Teaching &amp; Leadership:</strong> Designs Layer-2 first curricula, runs lecture-plus-lab
+                    sessions,
+                    and iterates based on student feedback.</li>
+                <li><strong>Networking Focus:</strong> VLANs, STP/LoopGuard, EtherChannels, OSPF/BGP fundamentals, NAT
+                    design,
+                    IPv6, and operational reliability.</li>
+                <li><strong>Homelab &amp; Infra:</strong> Dockerized services, reverse proxying, DNS filtering, and
+                    secure
+                    remote access with mesh VPN.</li>
+                <li><strong>Software Projects:</strong> JavaFX apps, Python bots, and network-automation scripts;
+                    growing
+                    interest in modern frontend with React.</li>
+                <li><strong>Community &amp; Style:</strong> Clear, neutral tone; emphasis on authenticity, correctness,
+                    and
+                    reproducible how-tos.</li>
+            </ul>
+        </section>
 
-</html>
+        <section id="interests" aria-labelledby="interests-title">
+            <h2 id="interests-title">What Austin Builds &amp; Learns</h2>
+
+            <article>
+                <h3>Networking Education</h3>
+                <p>Short, conceptual primers followed by guided labs (often in Packet Tracer or on real Cisco gear).
+                    Students
+                    practice VLAN planning, trunking, Rapid PVST, and Link Aggregation; later, they layer on routing,
+                    ACLs, and
+                    IPv6.</p>
+                <p>External references:
+                    <a href="https://www.netacad.com/" target="_blank" rel="noopener">Cisco Networking Academy</a>,
+                    <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ccna-200-301.html"
+                        target="_blank" rel="noopener">CCNA exam overview</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Homelab &amp; Reliability</h3>
+                <p>Multi-container services behind a reverse proxy, internal DNS, and clean network segmentation.
+                    Experiments
+                    with 4×4 vehicles and portable edge nodes occasionally meet a love of field networking and
+                    telemetry.</p>
+                <p>External references:
+                    <a href="https://www.docker.com/" target="_blank" rel="noopener">Docker</a>,
+                    <a href="https://tailscale.com/" target="_blank" rel="noopener">Tailscale</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Software &amp; Teaching Tools</h3>
+                <p>From a JavaFX “Foodtruck” app to Discord bots and subnetting games, Austin builds playful utilities
+                    that
+                    teach real skills. Current interests include React-based learning tools and visualizers for routing
+                    and
+                    binary arithmetic.</p>
+                <p>External references:
+                    <a href="https://react.dev/" target="_blank" rel="noopener">React</a>,
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VS Code</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Curiosity for Internet Operations</h3>
+                <p>Deep dives into historical routing incidents and the practical tradeoffs of anycast, peering
+                    policies, and
+                    router safeguards—bridging theory and real-world operations.</p>
+            </article>
+        </section>
+
+        <section id="showcase" aria-labelledby="showcase-title">
+            <h2 id="showcase-title">What AI Can Generate for Web Content</h2>
+            <p>This page itself was produced from the prompt above and prior context, with no CSS or JavaScript. Here
+                are
+                patterns AI can deliver quickly while staying aligned to your voice and goals:</p>
+            <ul>
+                <li><strong>Audience-aware structure:</strong> Clear headings, summaries, and “why it matters” callouts
+                    for
+                    learners vs. practitioners.</li>
+                <li><strong>Reusable sections:</strong> “About,” “Focus Areas,” and “Capabilities” blocks that port
+                    across your
+                    site.</li>
+                <li><strong>Documentation-ready markup:</strong> Lists, figures, and semantic HTML that can be styled
+                    later
+                    without rewrites.</li>
+                <li><strong>Pedagogical scaffolding:</strong> Stepwise lab plans, checklists, and assessment prompts
+                    tailored to
+                    CCNA learners.</li>
+                <li><strong>Tone &amp; precision control:</strong> Neutral, concise copy with concrete terms favored by
+                    technical audiences.</li>
+                <li><strong>Rapid iteration:</strong> Update a single prompt, regenerate sections, and keep the site
+                    consistent.
+                </li>
+            </ul>
+
+            <details>
+                <summary>Example: From outline to publish-ready HTML</summary>
+                <ol>
+                    <li>Gather constraints (no CSS/JS, navbar targets, audience, voice).</li>
+                    <li>Assemble a content map (About, Interests, Labs, AI capabilities).</li>
+                    <li>Render clean, accessible HTML with semantic tags.</li>
+                    <li>Link to internal pages and reputable external references.</li>
+                    <li>Iterate on sections without changing the overall structure.</li>
+                </ol>
+            </details>
+
+            <details>
+                <summary>Ethics, Safety, and Accuracy</summary>
+                <ul>
+                    <li>Prefer verifiable, non-sensitive facts and avoid over-claiming.</li>
+                    <li>Keep user privacy in mind; share only what’s relevant and consented.</li>
+                    <li>Invite review: AI drafts fast; humans keep it correct and authentic.</li>
+                </ul>
+            </details>
+        </section>
+
+        <section id="learning" aria-labelledby="learning-title">
+            <h2 id="learning-title">Teaching Philosophy</h2>
+            <p>Lead with intuition, then formalize. Show the “why,” then the CLI. Make labs bite-sized and
+                confidence-building,
+                with optional depth for advanced students. Encourage note-taking, self-tests, and post-lab retros.</p>
+            <ul>
+                <li><strong>Concept → Command → Consequence:</strong> Understand, configure, verify.</li>
+                <li><strong>Minimal friction:</strong> Known-good baselines and clear rollback steps.</li>
+                <li><strong>Realistic failure:</strong> Use safe, instructive breakages to build instincts.</li>
+            </ul>
+        </section>
+
+        <section id="quick-links" aria-labelledby="links-title">
+            <h2 id="links-title">Explore More</h2>
+            <p>Continue through the site or visit external resources aligned with Austin’s work.</p>
+            <ul>
+                <li><a href="portfolio.html">See the Portfolio</a></li>
+                <li><a href="qualifications.html">Review Qualifications</a></li>
+                <li><a href="service.html">Community &amp; Service</a></li>
+                <li><a href="https://www.cisco.com/" target="_blank" rel="noopener">Cisco</a></li>
+                <li><a href="https://www.cloudflare.com/learning/" target="_blank" rel="noopener">Networking Learning
+                        Hub</a>
+                </li>
+                <li><a href="https://docs.docker.com/" target="_blank" rel="noopener">Docker Docs</a></li>
+            </ul>
+        </section>
