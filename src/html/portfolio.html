@@ -17,7 +17,72 @@
             <li><a href="ai.html">AI</a></li>
         </ul>
     </div>
-    <p>This is the portfolio page.</p>
+    <h1>Portfolio</h1>
+    <p>In the past year, I have had a lot of opportunities to work on some really fun projects, both small and large.
+        Check out some of my favorite personal projects below.</p>
+    <div class="homelab">
+        <h2>Homelab</h2>
+        <p>This is my favorite, largest, and longest running project - my first homelab! As the story goes, my roommate
+            liked to use his old gaming PC as a "living room computer" to be connected to the TV for watching YouTube,
+            googling, etc. When we moved in together, he let me know about his failed attempts to get a <a
+                href="https://jellyfin.org/" target="_blank">Jellyfin Media Server</a> running and asked me if I might
+            know how to do something like that. I had NO idea how to do ANYTHING like that, but I took it upon myself to
+            try. After installing Ubuntu and a few long nights of browsing old forum posts and banging my head against
+            our crappy <a href="https://a.co/d/bGvnBqs" target="_blank">Logitech K400</a>, we had a Jellyfin server! But
+            now I need something called a reverse proxy? And TLS certs? And a domain? And DNS records? And more
+            services? Long story short, I learned it all, and it has been a great experience. Here are some of the
+            current services:</p>
+        <ul>
+            <li>Tailscale (for secure remote-access)</li>
+            <li>Nginx Proxy Manager</li>
+            <li>Jellyfin Media Server</li>
+            <li>AMP Game Panel</li>
+            <li>Pihole</li>
+            <li>Some one-off Python web-servers that I'm surprised are still functioning on reboot</li>
+            <li>A modded Minecraft server for my coworkers and manager from my internship at <a href="https://mimic.com"
+                    target="_blank">Mimic</a></li>
+            <li>A vanilla Minecraft server for my roommates and friends</li>
+            <li>Various other on-demand game servers</li>
+            <li>Something at <a href="https://austin.gl/ander" target="_blank">austin.gl/ander</a></li>
+        </ul>
+        <p>Some of my future aspirations include moving the homelab to a Proxmox High Availability Cluster hosted on a
+            few mini PCs on a server rack, getting enough smart home equipment to justify using Home Assistant,
+            running all of my services via Docker containers deployed via Docker Compose, and documenting everything on my GitHub.</p>
+    </div>
+    <div class="voxelgrid">
+        <h2>Voxelgrid</h2>
+        <p>It turns out I have some really smart and talented friends. One of which made his own 8x8x8 grid of LEDs,
+            controllable via Python scripts. It is visually similar to the one shown in <a
+                href="https://www.youtube.com/watch?v=9c-ASBcYWiA" target="_blank">this video</a>, if you'd like a
+            visual aid. I was really fascinated by the project, so I asked (forced) him to explain how he interfaces
+            with it. Using that knowledge, I put together a suite of scripts for him to run on it, including a 3D snake
+            game, 3D pong, and <a href="https://knowyourmeme.com/memes/bad-apple" target="_blank">Bad Apple!!</a> in
+            full 8x8 glory. To test my work, I used ChatGPT to help build me a renderer using OpenGL. With the help of
+            this renderer, I'm proud to say
+            that all of my code worked FIRST TRY when we actually got a chance to test it out on the hardware.</p>
+        <p>Find the source code for both the OpenGL renderer and Python scripts <a
+                href="https://github.com/austinglander/random-projects/tree/main/04-voxelgrid" target="_blank">here</a>.
+        </p>
+    </div>
+    <div class="woodenNickel">
+        <h2>Wooden Nickel</h2>
+        <p>One day, while playing <i>The Binding of Isaac</i>, I ran into a sequence of favorable events that was almost
+            unbelievable. I couldn't sleep at night without having <i>some</i> idea of the odds of what happened. So,
+            with the slightest bit of stastistics knowledge under my belt from my stats class that had started a few
+            weeks
+            prior, I constructed a statistical model of the event, and predicted that I could expect an outcome as
+            favorable or more favorable than mine approximately 1 in 1,409,244 tries. Pretty lucky!
+        </p>
+        <p>Find the source code for both the statistical analysis and a simulator <a
+                href="https://github.com/austinglander/random-projects/tree/main/01-tboi-wooden-nickel-analysis"
+                target="_blank">here</a>.
+        </p>
+        <div>
+            <p>Please enjoy a graph of the probability density of 1,000,000 attempts. For context, my luck landed me at
+                36 on the x-axis out of a technical maximum of 50.</p>
+            <img src="../assets/wooden_nickel.png">
+        </div>
+    </div>
 </body>
 
 </html>
